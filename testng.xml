@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="Functional Test">
+    <classes>
+      <class name="basic_cal.division"/>
+      <class name="basic_cal.multiplication"/>
+      <class name="basic_cal.addition"/>
+      <class name="basic_cal.subtraction"/>
+      <class name="basic_cal.modulos"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
