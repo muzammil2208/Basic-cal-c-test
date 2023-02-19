@@ -1,163 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-05T16:07:19 IST" name="Suite" finished-at="2023-02-05T16:07:53 IST" duration-ms="33562">
+  <suite started-at="2023-02-12T16:00:08 IST" name="Command line suite" finished-at="2023-02-12T16:00:13 IST" duration-ms="4856">
     <groups>
     </groups>
-    <test started-at="2023-02-05T16:07:19 IST" name="Functional Test" finished-at="2023-02-05T16:07:53 IST" duration-ms="33562">
-      <class name="basic_cal.division">
-        <test-method signature="setup()[pri:0, instance:basic_cal.division@62315f22]" started-at="2023-02-05T16:07:20 IST" name="setup" finished-at="2023-02-05T16:07:22 IST" duration-ms="2556" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="division_TC_01()[pri:0, instance:basic_cal.division@62315f22]" started-at="2023-02-05T16:07:22 IST" name="division_TC_01" finished-at="2023-02-05T16:07:23 IST" depends-on-methods="basic_cal.division.setup" duration-ms="1073" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- division_TC_01 -->
-        <test-method signature="division_TC_02()[pri:0, instance:basic_cal.division@62315f22]" started-at="2023-02-05T16:07:23 IST" name="division_TC_02" finished-at="2023-02-05T16:07:24 IST" depends-on-methods="basic_cal.division.setup" duration-ms="541" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- division_TC_02 -->
-        <test-method signature="division_TC_03()[pri:0, instance:basic_cal.division@62315f22]" started-at="2023-02-05T16:07:24 IST" name="division_TC_03" finished-at="2023-02-05T16:07:25 IST" depends-on-methods="basic_cal.division.setup" duration-ms="866" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-result is not matching expected [2.5] but found [2.50]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-result is not matching expected [2.5] but found [2.50]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at basic_cal.division.division_TC_03(division.java:110)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- division_TC_03 -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:basic_cal.division@62315f22]" started-at="2023-02-05T16:07:25 IST" name="tear" finished-at="2023-02-05T16:07:27 IST" duration-ms="2048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear -->
-      </class> <!-- basic_cal.division -->
-      <class name="basic_cal.modulos">
-        <test-method signature="setup()[pri:0, instance:basic_cal.modulos@675ffd1d]" started-at="2023-02-05T16:07:51 IST" name="setup" finished-at="2023-02-05T16:07:51 IST" duration-ms="799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="modulos_TC_01()[pri:0, instance:basic_cal.modulos@675ffd1d]" started-at="2023-02-05T16:07:51 IST" name="modulos_TC_01" finished-at="2023-02-05T16:07:52 IST" depends-on-methods="basic_cal.modulos.setup" duration-ms="472" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modulos_TC_01 -->
-        <test-method signature="modulos_TC_02()[pri:0, instance:basic_cal.modulos@675ffd1d]" started-at="2023-02-05T16:07:52 IST" name="modulos_TC_02" finished-at="2023-02-05T16:07:52 IST" depends-on-methods="basic_cal.modulos.setup" duration-ms="362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modulos_TC_02 -->
-        <test-method signature="modulos_TC_03()[pri:0, instance:basic_cal.modulos@675ffd1d]" started-at="2023-02-05T16:07:52 IST" name="modulos_TC_03" finished-at="2023-02-05T16:07:53 IST" depends-on-methods="basic_cal.modulos.setup" duration-ms="448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- modulos_TC_03 -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:basic_cal.modulos@675ffd1d]" started-at="2023-02-05T16:07:53 IST" name="tear" finished-at="2023-02-05T16:07:53 IST" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear -->
-      </class> <!-- basic_cal.modulos -->
-      <class name="basic_cal.subtraction">
-        <test-method signature="setup()[pri:0, instance:basic_cal.subtraction@48c4245d]" started-at="2023-02-05T16:07:47 IST" name="setup" finished-at="2023-02-05T16:07:48 IST" duration-ms="981" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="subtraction_TC_01()[pri:0, instance:basic_cal.subtraction@48c4245d]" started-at="2023-02-05T16:07:48 IST" name="subtraction_TC_01" finished-at="2023-02-05T16:07:49 IST" depends-on-methods="basic_cal.subtraction.setup" duration-ms="731" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtraction_TC_01 -->
-        <test-method signature="subtraction_TC_02()[pri:0, instance:basic_cal.subtraction@48c4245d]" started-at="2023-02-05T16:07:49 IST" name="subtraction_TC_02" finished-at="2023-02-05T16:07:50 IST" depends-on-methods="basic_cal.subtraction.setup" duration-ms="416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtraction_TC_02 -->
-        <test-method signature="subtraction_TC_03()[pri:0, instance:basic_cal.subtraction@48c4245d]" started-at="2023-02-05T16:07:50 IST" name="subtraction_TC_03" finished-at="2023-02-05T16:07:50 IST" depends-on-methods="basic_cal.subtraction.setup" duration-ms="506" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtraction_TC_03 -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:basic_cal.subtraction@48c4245d]" started-at="2023-02-05T16:07:50 IST" name="tear" finished-at="2023-02-05T16:07:51 IST" duration-ms="397" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear -->
-      </class> <!-- basic_cal.subtraction -->
+    <test started-at="2023-02-12T16:00:08 IST" name="Command line test" finished-at="2023-02-12T16:00:13 IST" duration-ms="4856">
       <class name="basic_cal.addition">
-        <test-method signature="setup()[pri:0, instance:basic_cal.addition@30af7377]" started-at="2023-02-05T16:07:43 IST" name="setup" finished-at="2023-02-05T16:07:45 IST" duration-ms="2675" status="PASS">
+        <test-method signature="setup()[pri:0, instance:basic_cal.addition@6c451c9c]" started-at="2023-02-12T16:00:08 IST" name="setup" finished-at="2023-02-12T16:00:11 IST" duration-ms="3113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addition_TC_01()[pri:0, instance:basic_cal.addition@30af7377]" started-at="2023-02-05T16:07:45 IST" name="addition_TC_01" finished-at="2023-02-05T16:07:46 IST" depends-on-methods="basic_cal.addition.setup" duration-ms="819" status="PASS">
+        <test-method signature="addition_TC_01()[pri:0, instance:basic_cal.addition@6c451c9c]" started-at="2023-02-12T16:00:11 IST" name="addition_TC_01" finished-at="2023-02-12T16:00:12 IST" depends-on-methods="basic_cal.addition.setup" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addition_TC_01 -->
-        <test-method signature="addition_TC_02()[pri:0, instance:basic_cal.addition@30af7377]" started-at="2023-02-05T16:07:46 IST" name="addition_TC_02" finished-at="2023-02-05T16:07:47 IST" depends-on-methods="basic_cal.addition.setup" duration-ms="542" status="PASS">
+        <test-method signature="addition_TC_02()[pri:0, instance:basic_cal.addition@6c451c9c]" started-at="2023-02-12T16:00:12 IST" name="addition_TC_02" finished-at="2023-02-12T16:00:12 IST" depends-on-methods="basic_cal.addition.setup" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addition_TC_02 -->
-        <test-method signature="addition_TC_03()[pri:0, instance:basic_cal.addition@30af7377]" started-at="2023-02-05T16:07:47 IST" name="addition_TC_03" finished-at="2023-02-05T16:07:47 IST" depends-on-methods="basic_cal.addition.setup" duration-ms="609" status="PASS">
+        <test-method signature="addition_TC_03()[pri:0, instance:basic_cal.addition@6c451c9c]" started-at="2023-02-12T16:00:12 IST" name="addition_TC_03" finished-at="2023-02-12T16:00:13 IST" depends-on-methods="basic_cal.addition.setup" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addition_TC_03 -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:basic_cal.addition@30af7377]" started-at="2023-02-05T16:07:47 IST" name="tear" finished-at="2023-02-05T16:07:47 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="tear()[pri:0, instance:basic_cal.addition@6c451c9c]" started-at="2023-02-12T16:00:13 IST" name="tear" finished-at="2023-02-12T16:00:13 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
       </class> <!-- basic_cal.addition -->
-      <class name="basic_cal.multiplication">
-        <test-method signature="setup()[pri:0, instance:basic_cal.multiplication@26a94fa5]" started-at="2023-02-05T16:07:27 IST" name="setup" finished-at="2023-02-05T16:07:29 IST" duration-ms="1662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="multiplication_TC_01()[pri:0, instance:basic_cal.multiplication@26a94fa5]" started-at="2023-02-05T16:07:29 IST" name="multiplication_TC_01" finished-at="2023-02-05T16:07:29 IST" depends-on-methods="basic_cal.multiplication.setup" duration-ms="793" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiplication_TC_01 -->
-        <test-method signature="multiplication_TC_02()[pri:0, instance:basic_cal.multiplication@26a94fa5]" started-at="2023-02-05T16:07:29 IST" name="multiplication_TC_02" finished-at="2023-02-05T16:07:30 IST" depends-on-methods="basic_cal.multiplication.setup" duration-ms="789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiplication_TC_02 -->
-        <test-method signature="multiplication_TC_03()[pri:0, instance:basic_cal.multiplication@26a94fa5]" started-at="2023-02-05T16:07:30 IST" name="multiplication_TC_03" finished-at="2023-02-05T16:07:31 IST" depends-on-methods="basic_cal.multiplication.setup" duration-ms="642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiplication_TC_03 -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:basic_cal.multiplication@26a94fa5]" started-at="2023-02-05T16:07:31 IST" name="tear" finished-at="2023-02-05T16:07:43 IST" duration-ms="11777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tear -->
-      </class> <!-- basic_cal.multiplication -->
-    </test> <!-- Functional Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

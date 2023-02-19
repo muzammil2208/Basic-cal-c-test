@@ -34,8 +34,7 @@ public class addition {
 		WebElement equals=driver.findElement(By.id("="));
 		WebElement result=driver.findElement(By.className("answer"));
 		WebElement equation=driver.findElement(By.className("equation"));
-		WebElement two=driver.findElement(By.id("2"));
-		WebElement minus=driver.findElement(By.id("-"));
+		
 		SoftAssert sa=new SoftAssert();
 		
 		//action and verification

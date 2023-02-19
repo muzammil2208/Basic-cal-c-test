@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basic_cal.modulos">
+      <class name="basic_cal.functional">
         <methods>
-          <include name="modulos_TC_03"/>
           <include name="tear"/>
+          <include name="actions_test"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- basic_cal.modulos -->
+      </class> <!-- basic_cal.functional -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
